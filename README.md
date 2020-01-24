@@ -14,7 +14,7 @@ Lucky Sevens Starting Screen - Laid out in three lines:
 2nd line - A label with 'Starting Bet' and a textbox that accepts a money value
 3rd line - A button labeled 'Play'
 
-https://github.com/framples/LuckySevens/blob/master/images/img1.svg
+![Img1](https://github.com/framples/LuckySevens/blob/master/images/img1.svg)
 
 ## Initial game layout
 The program asks the user how many dollars they have to bet.
@@ -36,7 +36,7 @@ When the game is over, display the following output:
 5th row - Results header
 6th row - Table of results
 
-https://github.com/framples/LuckySevens/blob/master/images/img2.svg
+![Img2](https://github.com/framples/LuckySevens/blob/master/images/img2.svg)
 
 The table of results includes:
 - Starting bet label and amount
@@ -45,4 +45,4 @@ The table of results includes:
 - Roll count at highest amount won label and amount
 
 
-https://github.com/framples/LuckySevens/blob/master/images/igm3.svg
+![Img3](https://github.com/framples/LuckySevens/blob/master/images/igm3.svg)
