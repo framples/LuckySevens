@@ -44,5 +44,5 @@ The table of results includes:
 - Highest amount won label and amount
 - Roll count at highest amount won label and amount
 
-
+## Flow of Operations
 ![Img3](https://github.com/framples/LuckySevens/blob/master/images/igm3.svg)

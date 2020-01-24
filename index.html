@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lucky Sevens</title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Lucky Sevens</h1>
+    </header>
+
+    <form>
+        <label for="startBet">Starting Bet: $</label>
+        <input type="number" id="startBetNumber" value="0">
+        <br>
+        <button onclick="playGame();" type="button" id="playButton">Play</button>
+    </form>
+
+    <div id="results" style="display:none">
+        <h2>Results</h2>
+        <table>
+            <tr>
+                <td id="resultsStartingBet">Starting Bet</td>
+            </tr>
+            <tr>
+                <td id="resultsTotalRolls">Total Rolls Before Going Broke</td>
+            </tr>
+            <tr>
+                <td id="resultsHighestWon">Highest Amount Won</td>
+            </tr>
+            <tr>
+                <td id="resultsHighestRolled">Roll Count at Highest Amount Won</td>
+            </tr>
+        </table>
+        <div>
+            <button type="button" name="playAgain" id="playAgain" onclick="location.playAgain();">Gamble Again</button>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="luckySevens.js"></script>
+
+</body>
+
+</html>
