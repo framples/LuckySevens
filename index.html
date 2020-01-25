@@ -11,36 +11,50 @@
 </head>
 
 <body>
-    <header>
+    <div>
         <h1>Lucky Sevens</h1>
-    </header>
-
-    <form>
-        <label for="startBet">Starting Bet: $</label>
-        <input type="number" id="startBetNumber" value="0">
+        <form name="luckySevens" onsubmit="return playGame()" class="form-inline">
+            <div class="startDiv">
+                <label class="label" for="startingBet">Starting Bet:</label>
+                
+                <span class="moneyInput">$</span>
+                
+                <input type="number" id="startingBet" style="width: 60px"  value="0.00">
+            </div>
+            
+            <br>
+            
+            <button class="submit" id="submitButton" class="btn btn-default">Play</button>
+        </form>
         <br>
-        <button onclick="playGame();" type="button" id="playButton">Play</button>
-    </form>
-
-    <div id="results" style="display:none">
-        <h2>Results</h2>
-        <table>
-            <tr>
-                <td id="resultsStartingBet">Starting Bet</td>
-            </tr>
-            <tr>
-                <td id="resultsTotalRolls">Total Rolls Before Going Broke</td>
-            </tr>
-            <tr>
-                <td id="resultsHighestWon">Highest Amount Won</td>
-            </tr>
-            <tr>
-                <td id="resultsHighestRolled">Roll Count at Highest Amount Won</td>
-            </tr>
-        </table>
-        <div>
-            <button type="button" name="playAgain" id="playAgain" onclick="location.playAgain();">Gamble Again</button>
+        <div class="line">
         </div>
+        
+        <h2>Results</h2>
+        <div class="results">
+            <table>
+                <thead>
+                    <th>Starting Bet</th>
+                    <th id="starting-bet-value"></th>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Total Rolls Before Going Broke</td>
+                        <td id="total-rolls"></td>
+                    </tr>
+                    <tr>
+                        <td>Highest Amount Won</td>
+                        <td id="highest-amount"></td>
+                    </tr>
+                    <tr>
+                        <td>Roll Count at Highest Amount Won</td>
+                        <td id="rolls-at-highest"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
     </div>
 
 
