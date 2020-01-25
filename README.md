@@ -1,4 +1,5 @@
-# LuckySevens https://framples.github.io/LuckySevens/
+# LuckySevens 
+## https://framples.github.io/LuckySevens/
 Directions for: Code Practice: Lucky Sevens
 
 As long as there is money, play the game.
